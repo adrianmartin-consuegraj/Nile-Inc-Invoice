@@ -8,4 +8,4 @@ This app was created entirely with Vainilla JavaScript.
 <br>
 ![img](https://img.shields.io/badge/version-1.0-blue)
 
-<!-- translate all the files into English -->
+<!-- translate all the files and comments into English -->
