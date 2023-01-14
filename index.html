@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Taller</title>
+    <title>Nile Inc.</title>
 
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -156,9 +156,30 @@
         <div class="row">
 
             <div class="col-sm-6 border-end">
-                <h2>TALLERES VIVES</h2>
                 <br>
-                <img src="img/img.png">
+                <h2 style="font-size: 27px; text-shadow: 3px 3px 3px rgb(94, 93, 93);">NILE Inc.</h2>
+                <br>
+                <p style="font-size: medium; text-align: center;">Somos una empresa comprometida con la cultura; por eso, cada día un poema:</p>
+                <pre style="font-size: medium; text-align: center;">
+
+From dewy dreams, my soul, arise,
+From love's deep slumber and from death,
+For lo! the trees are full of sighs
+Whose leaves the morn admonisheth.
+
+Eastward the gradual dawn prevails
+Where softly-burning fires appear,
+Making to tremble all those veils
+Of grey and golden gossamer.
+
+While sweetly, gently, secretly,
+The flowery bells of morn are stirred
+And the wise choirs of faery
+Begin (innumerous!) to be heard.
+
+                    'From Dewy Dreams'
+                    - James Royce
+                </pre>
             </div>
 
 
@@ -166,7 +187,7 @@
 
                 <div class="parte-izquierda">
 
-                    <h2 style="text-align: start;">Datos del Cliente</h2>
+                    <h2 style="text-align: start;">→ Datos del Cliente</h2>
                     <br>
 
                     <!-- Formulario Factura -->
@@ -358,9 +379,8 @@
                         <div class="row align-items-center text-end">
 
                             <div class="col-10">
-                                <button id="buttonDatos" class="btn btn-primary" type="button" value="buttonDatos"
-                                    onmouseover="entrar(this);" onmouseout="salir(this)" onclick="validarForm()">Enviar
-                                    factura</button>
+                                <button id="buttonDatos" class="btn btn-success" type="button" value="buttonDatos"
+                                    onmouseover="entrar(this);" onmouseout="salir(this)" onclick="validarForm()">Enviar factura</button>
                             </div>
 
                         </div>
@@ -369,11 +389,16 @@
                 </div>
             </div>
         </div>
+        <br>
+    </div>
+    
+    <!-- 2ª parte - FILAS -->
+    
+    <div class="cabecera" style="text-align: center;">
+        <h2 style="text-align: center;"> → Factura </h2>
     </div>
 
-
-    <!-- 2ª parte - FILAS -->
-    <div class="filas">
+    <div class="filas fact">
 
         <!-- Formulario Filas -->
         <form id="formulario" action="javascript:alert(recuperarDatosFactura())" onsubmit="return validarFormFactura()">
@@ -382,7 +407,7 @@
             <div class="row align-items-center text-start">
 
                 <div class="col-10">
-                    <button id="anadirFilas" class="btn btn-info" type="button" value="button"
+                    <button id="anadirFilas" class="btn btn-success" type="button" value="button"
                         onmouseover="entrar(this);" onmouseout="salir(this)" onclick="insertarLinea()">Añadir
                         fila</button>
                 </div>
@@ -420,7 +445,7 @@
             <div class="row align-items-center text-start">
 
                 <div class="col-10">
-                    <button id="button" class="btn btn-info" type="button" value="buttonFactura"
+                    <button id="button" class="btn btn-success" type="button" value="buttonFactura"
                         onmouseover="entrar(this);" onmouseout="salir(this)" onclick="validarFormFactura()">Generar
                         factura</button>
                 </div>
