@@ -1,5 +1,5 @@
-# Workshop Invoice
-Simulation of a workshop invoice with momentary price update.
+# Nile Inc. Invoice
+Simulation of a multinational company (maybe like Amazon, but not Amazon definitely) invoice with momentary price update.
 
 ## How was build this app?
 This app was created with HTML, CSS and JavaScript.
